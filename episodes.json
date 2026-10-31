@@ -1,0 +1,16 @@
+{
+  "episodes": [
+    {
+      "title": "الحلقة 1 (تجريبية)",
+      "date": "2026-10-30",
+      "status": "published",
+      "url": "https://youtube.com/"
+    },
+    {
+      "title": "الحلقة 2 (تجريبية)",
+      "date": "2026-10-31",
+      "status": "processing",
+      "url": ""
+    }
+  ]
+}
