@@ -1,16 +1,24 @@
 {
-  "episodes": [
+  "genres": [
+    { "id": "romance", "name": "رومانسي" },
+    { "id": "horror",  "name": "رعب" },
+    { "id": "action",  "name": "أكشن" }
+  ],
+  "clips": [
+    { "title": "مقطع رومانسي 1 (تجريبي)", "genre": "romance", "date": "2026-10-30", "status": "published", "url": "https://youtube.com/" },
+    { "title": "مقطع رومانسي 2 (تجريبي)", "genre": "romance", "date": "2026-10-31", "status": "processing", "url": "" },
+    { "title": "مقطع رعب 1 (تجريبي)",     "genre": "horror",  "date": "2026-10-29", "status": "published", "url": "https://youtube.com/" },
+    { "title": "مقطع أكشن 1 (تجريبي)",    "genre": "action",  "date": "2026-10-28", "status": "published", "url": "https://youtube.com/" }
+  ],
+  "series": [
     {
-      "title": "الحلقة 1 (تجريبية)",
-      "date": "2026-10-30",
-      "status": "published",
-      "url": "https://youtube.com/"
-    },
-    {
-      "title": "الحلقة 2 (تجريبية)",
-      "date": "2026-10-31",
-      "status": "processing",
-      "url": ""
+      "title": "مسلسل تجريبي",
+      "genre": "action",
+      "description": "وصف قصير للمسلسل يظهر هنا.",
+      "episodes": [
+        { "title": "الحلقة 1", "date": "2026-10-30", "status": "published", "url": "https://youtube.com/" },
+        { "title": "الحلقة 2", "date": "2026-10-31", "status": "processing", "url": "" }
+      ]
     }
   ]
 }
