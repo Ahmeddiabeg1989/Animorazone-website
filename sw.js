@@ -1,6 +1,6 @@
 // Service Worker: الصفحة الأساسية من الكاش، والبيانات (episodes.json) من النت أولاً
 // غيّر رقم النسخة عند تغيير ملفات الواجهة عشان الكاش القديم يتمسح
-const VERSION = "v1";
+const VERSION = "v2";
 const CACHE = "app-shell-" + VERSION;
 const SHELL = [
   "./",
